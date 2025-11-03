@@ -29,23 +29,13 @@ template/
 
 Each page contains clearly marked sections to edit:
 
-```html
-<!-- START EDITING BELOW -->
-   ...content...
-<!-- STOP EDITING ABOVE -->
-```
+## copy the template
 
- Only edit between these markers.
+by pressing the "use this template" button, copy the code in your repo.
 
+## open code->codespace
  
-## How to Test Locally
-
-Browsers block local includes (fetch()),
-so you must view the site through a local server, not by double-clicking the HTML file.
-
-Using Python
-
-Open a terminal or PowerShell in the project folder.
+## Test Locally 
 
 Run:
 
@@ -55,11 +45,13 @@ python -m http.server 8000
 
 On browser go to ***http://localhost:8000/***
 
-## How to put it online
+## check your modifications in staging mode
 
-### Step 1 - push your code into a new repo
+## push your code into the repo
 
-### Step 2 - Enable GitHub Pages
+source control -> commit -> add comment -> syncronise
+
+## Enable GitHub Pages
 
 Go to your repository → Settings → Pages
 
@@ -70,6 +62,8 @@ Under Build and deployment, choose:
 - Click Save
 
 Wait about 1–2 minutes, then refresh the page.
+
+## open your page in public mode 
 
 Go to ***https://USERNAME.github.io/academic-profile/***
 
