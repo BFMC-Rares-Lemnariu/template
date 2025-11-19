@@ -79,7 +79,7 @@ Click Save
 Wait about 1–2 minutes, then refresh the page.
 
 ## Open Your Public Page
-
+Change the GITUSER with your own username on git. GITREPO with the repo name you gave it.
 Go to ***https://GITUSER.github.io/GITREPO/***
 
 ## Important Notes
