@@ -29,59 +29,73 @@ template/
 
 Each page contains clearly marked sections to edit:
 
-## copy the template
+## Copy the Template
 
-by pressing the "use this template" button, copy the code in your repo.
+Use the “Use this template” button on GitHub to create your own repository with this structure.
 
-## open code->codespace
+## Edit the Code 
+### Option A: Edit Online
+Go to Code → Codespaces → Create codespace
+Edit files directly in the browser
+
+### Option B: Edit Offline (Local PC)
+Clone your repository
+Edit files using any code editor
  
 ## Test Locally 
 
-Run:
+In the project folder, run:
 
 ```bash
 python -m http.server 8000
 ```
 
-On browser go to ***http://localhost:8000/***
+Then in your browser go to:
+***http://localhost:8000/***
 
-## check your modifications in staging mode
+## Check your changes in this local “staging” mode.
 
-## push your code into the repo
+## Push Your Changes to GitHub
 
-source control -> commit -> add comment -> syncronise
+### Option A: Edit Online
+Source Control → Commit → Add a comment → Sync
+
+### Option B: Edit Offline (Local PC)
+```bash
+git add .
+git commit -m "Update website"
+git push
+```
 
 ## Enable GitHub Pages
 
-Go to your repository → Settings → Pages
+On your browser, Go to Repository → Settings → Pages
 
-Under Build and deployment, choose: 
-- Source → Deploy from a branch
-- Branch → main
-- Folder → / (root)
-- Click Save
-
+Under Build and deployment, set:
+    Source: Deploy from a branch
+    Branch: main
+    Folder: / (root)
+Click Save
 Wait about 1–2 minutes, then refresh the page.
 
-## open your page in public mode 
+## Open Your Public Page
 
-Go to ***https://USERNAME.github.io/academic-profile/***
+Go to ***https://<USERNAME>.github.io/<REPO>/***
 
 ## Important Notes
 
-GitHub Pages requires the repository to be public (for free accounts).
-Private repositories disable Pages unless you have a paid plan.
-
-Always keep the folder structure identical — relative paths must stay the same.
-
-Profile photos should be around 300 × 300 px, JPG or PNG, under 200 KB.
-
-To prevent your page from appearing in search engines, create a robots.txt file:
+GitHub Pages requires a public repository (for free accounts).
+Keep the folder structure unchanged — relative paths depend on it.
+Profile photo should be ~300×300 px, JPG/PNG, under 200 KB.
+To prevent indexing by search engines, add a robots.txt file:
 
 ```bash
 User-agent: *
 Disallow: /
 ```
+
+GitHub Codespaces offers 15 hours/month for free.
+A full video guide is available here: https://youtu.be/nYA1YGD5GWo
 
 ##  Credits
 
