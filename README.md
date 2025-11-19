@@ -80,7 +80,7 @@ Wait about 1–2 minutes, then refresh the page.
 
 ## Open Your Public Page
 
-Go to ***https://<USERNAME>.github.io/<REPO>/***
+Go to ***https://<<USERNAME>>.github.io/<<REPO>>/***
 
 ## Important Notes
 
@@ -96,6 +96,8 @@ Disallow: /
 
 GitHub Codespaces offers 15 hours/month for free.
 A full video guide is available here: https://youtu.be/nYA1YGD5GWo
+
+Template view here: https://bfmc-rares-lemnariu.github.io/template/
 
 ##  Credits
 
