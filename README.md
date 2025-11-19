@@ -80,7 +80,7 @@ Wait about 1–2 minutes, then refresh the page.
 
 ## Open Your Public Page
 
-Go to ***https://<<USERNAME>>.github.io/<<REPO>>/***
+Go to ***https://<<GITUSER>>.github.io/<<GITREPO>>/***
 
 ## Important Notes
 
